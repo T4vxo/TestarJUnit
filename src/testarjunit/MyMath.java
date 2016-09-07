@@ -26,22 +26,16 @@ public class MyMath {
         return a == b;
     }
     
-    public double convertToFarenheit(double c){
-        //om c < -273.15 
-            //skicka fel
-            //throw new NumberFormatException("Cant be lower than abs zero");
-            
-            // Temp F = 1.8xC + 32
-        return 0; 
+    public int difference(int a, int b){
+        //skillnaden mellan a och b; 
+        
+        //om a = 4 och b = 2 -> 2
+        
+        //om a = 2 och b = 2 -> 2
+        
+        return 0;
     }
     
-    public int compareTo(int a, int b){
-        
-        //om a > b --> 1
-        
-        //om a == b --> 0
-        
-        //om a < b --> -1
-        return 0; 
-    }
+
+
 }
