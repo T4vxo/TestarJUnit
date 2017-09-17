@@ -31,7 +31,7 @@ public class MyMath {
         
         //om a = 4 och b = 2 -> 2
         
-        //om a = 2 och b = 2 -> 2
+        //om a = 2 och b = 4 -> 2
         
         return 0;
     }
