@@ -13,12 +13,11 @@ public class MyMath2 {
     
         
     public double convertToFarenheit(double c){
-        //om c < -273.15 
-            //skicka fel
-            //throw new NumberFormatException("Cant be lower than abs zero");
-            
-            // Temp F = 1.8xC + 32
-        return 0; 
+        if(c<-273.15){
+            throw new IllegalArgumentException("Temperature cant be lower than 0 Kelvin.");
+        }            
+         double f = 1.8*c + 32;
+        return f; 
     }
     
     public int compareTo(int a, int b){
