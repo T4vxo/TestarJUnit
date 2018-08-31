@@ -36,6 +36,18 @@ public class MyMath {
         return 0;
     }
     
-
+    public int difference(String a,String b){
+        //skillnaden mellan a och b; 
+        
+        //om a = 4 och b = 2 -> 2
+        
+        //om a = 2 och b = 4 -> 2
+        
+        //talen skall även parsas 
+        
+        //Fel förväntas om man lägger in fel.
+        
+        return 0;
+    }
 
 }
