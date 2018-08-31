@@ -17,7 +17,7 @@ public class MyMath {
             tal1 = Integer.parseInt(a);
             tal2 = Integer.parseInt(b);
             return tal1+tal2;
-        } catch (Exception e) {
+        } catch (Exception e) { //Vilket exceptions är det vi får här? kan förbättras.
             throw new NumberFormatException("Du måste ha siffror");
         }
     }
